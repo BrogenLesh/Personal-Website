@@ -1,0 +1,54 @@
+body{
+    background-color: #03fcc6;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.car-img{
+    width: 300px;
+    float: right;
+    margin-left: 1em;
+}
+.nature-img{
+    width: 17rem;
+    float: left;
+    margin-right: 1em;
+}
+p{
+    font-size: 20pt;
+}
+h1{
+    font-size: 3em;
+    text-align: center;
+    text-decoration: underline;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;;
+}
+footer, div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 auto;
+}
+header{
+    text-align: right;
+    color: #0c0d0d;
+}
+.social{
+    width: 50px;
+    padding: 10px;
+}
+.nav-link{
+    text-decoration: none;
+    color: #0c0d0d;
+    font-size: 1.5em;
+    padding: .3em;
+}
+.nav-link:hover{
+    cursor: pointer;
+    color: #b22222;
+}

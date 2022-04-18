@@ -1,0 +1,45 @@
+        
+        body{
+            background-color:#03fcc6;
+        }
+        main{
+            text-align: center;
+        }
+        h1{
+            font-size: 5em;
+            color: #0c0d0d;
+            font-family:'Roboto Condensed' , sans-serif;
+        }
+        p{
+            font-size: x-large;
+            font-family: 'Merriweather', serif;
+        }
+        footer{
+            display: flex;
+            flex-direction: column;
+            align-items: center;;
+        }
+        footer, div{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin: 0 auto;
+        }
+        header{
+            text-align: right;
+            color: #0c0d0d;
+        }
+        .social{
+            width: 50px;
+            padding: 10px;
+        }
+        .nav-link{
+            text-decoration: none;
+            color: #0c0d0d;
+            font-size: 1.5em;
+            padding: .3em;
+        }
+        .nav-link:hover{
+            cursor: pointer;
+            color: #b22222;
+        }
